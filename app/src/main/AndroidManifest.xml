@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.CAMERA"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/uitiot"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light"
+        tools:targetApi="31">
+        <activity
+            android:name=".NotificationActivity"
+            android:theme="@style/Theme.Themesnotitlebar"
+            android:exported="false" />
+        <activity
+            android:name=".PostActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Themesnotitlebar" />
+        <activity
+            android:name=".DashBoardActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Themesnotitlebar" />
+        <activity
+            android:name=".OTPConfirmActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Themesnotitlebar" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Themesnotitlebar" />
+        <activity
+            android:name=".ConfirmPass"
+            android:exported="false"
+            android:theme="@style/Theme.Themesnotitlebar" />
+        <activity
+            android:name=".OTPActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Themesnotitlebar" />
+        <activity
+            android:name=".ForgetPassword"
+            android:exported="false"
+            android:theme="@style/Theme.Themesnotitlebar" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Themesnotitlebar" />
+        <activity
+            android:name=".CheckActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Themesnotitlebar" />
+        <activity
+            android:name=".OnBoardingActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Themesnotitlebar" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Themesnotitlebar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

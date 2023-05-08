@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ds">
+        <attr name="backgroundcolor" format="color"/>
+        <attr name="layoutcolor" format="color"/>
+        <attr name="textcolor" format="color"/>
+        <attr name="selectedcolor" format="color" />
+        <attr name="defaultcolor" format="color" />
+        <attr name="headercolor" format="color" />
+        <attr name="headertextcolor" format="color" />
+        <attr name="message_sender" format="color" />
+        <attr name="message_rec" format="color" />
+        <attr name="like" format="color" />
+        <attr name="search" format="color" />
+        <attr name="following" format="color" />
+    </declare-styleable>
+</resources>
